@@ -1,0 +1,389 @@
+*{
+    margin: 0%;
+    padding: 0%
+}
+
+header{
+
+width: 80%;
+
+margin: 40px 10%;
+
+display: flex;
+
+justify-content: space-between;
+
+align-items: center;
+}
+
+.logo{
+
+width: 20%;
+}
+
+.img{
+
+}
+nav{
+    
+width: 40%;
+    
+text-align: end;
+    
+text-transform: capitalize;
+    
+font-size: 18px;
+}
+
+.banner{width: 100%;height: 1000px;position: relative;}
+
+
+.banner img{
+
+width: 100%;
+
+height: 100%;
+}
+.text{
+    
+height: 50%;
+    
+width: 60%;
+    
+text-align: center;
+    
+position: absolute;
+    
+left: 50%;
+    
+top: 50%;
+    
+transform: translate(-50%, -50%);
+}
+.text h1{
+
+margin-top: 60px;
+
+margin-bottom: 60px;
+
+text-decoration: none;
+
+font-size: 90px;
+
+text-transform: uppercase;
+
+color: white;
+}
+.text h4{
+
+margin-top: 90px;
+
+margin-bottom: 68px;
+
+font-size: 35px;
+
+text-transform: lowercase;
+
+color: white;
+
+}
+ .text button{
+                
+margin-top: 100px;
+                
+text-decoration: none;
+                
+padding: 20px 40px;
+                
+border-radius: 10px;
+                
+background: #fb6e52;
+                
+}
+
+.text h2{color: white;font-size: 25px;text-transform: capitalize;}
+
+.iteam{
+
+display: flex;
+
+justify-content: space-between;
+
+width: 80%;
+
+margin: 5%  10%;
+}
+.iteam1{width: 25%;text-align: center;}
+.icon1{
+    text-align: center;
+    position: relative;
+}
+ .icon1 img{width: 100px;}
+.icon1 i{
+    
+color: white;
+    
+font-size: 60px;
+    
+position: absolute;
+    
+top: 50%;
+    
+left: 50%;
+    
+transform: translate(-45%, -46%);
+}
+.iteam1 h3{
+    
+font-size: 30px;
+    
+margin: 20px 0px;
+}
+.iteam1 h4{
+    
+font-size: 20px;
+}
+
+.iteam2{text-align: center;width: 25%;}
+.icon2{
+    position: relative;
+}
+ .icon2 img{width: 100px;}
+.icon2 i{color: white;font-size: 60px;position: absolute;top: 50%;left: 50%;transform: translate(-50%, -50%);}
+.iteam2 h3{
+    
+font-size: 30px;
+    
+margin: 20px 0px;
+}
+.iteam2 h4{
+    
+font-size: 20px;
+}
+.iteam3{text-align: center;width: 25%;}
+.icon3{
+    position: relative;
+}
+ .icon3 img{width: 100px;}
+.icon3 i{color: white;font-size: 60px;position: absolute;top: 50%;left: 50%;transform: translate(-50%, -53%);}
+.iteam3 h3{
+    
+font-size: 30px;
+    
+margin: 20px 0px;
+}
+.iteam3 h4{
+    
+font-size: 20px;
+}
+
+.text2{
+
+color: #fc8b75;
+
+text-align: center;
+
+font-size: 30px;
+
+margin: 50px 0px;
+}
+
+.pic{
+
+width: 80%;
+
+margin: 10%;
+
+display: flex;
+
+justify-content: space-between;
+}
+.pic1{
+
+width: 26.66%;
+
+height: 250px;
+
+text-align: center;
+}
+.pic1 img{
+
+width: 100%;
+
+height: 100%;
+}
+.pic1 h3{
+
+font-size: 30px;
+
+margin: 20px 0px;
+}
+.pic1 h4{
+
+font-size: 20px;
+}
+.pic2{
+
+width: 26.66%;
+
+height: 250px;
+
+text-align: center;
+}
+.pic2 img{
+
+width: 100%;
+
+height: 100%;
+}
+.pic2 h3{
+
+font-size: 30px;
+
+margin: 20px 0px;
+}
+.pic2 h4{
+
+font-size: 20px;
+}
+.pic3{
+
+width: 26.66%;
+
+text-align: center;
+
+height: 250px;
+}
+.pic3 img{
+
+width: 100%;
+
+height: 100%;
+}
+.pic3 h3{
+
+font-size: 30px;
+
+margin: 20px 0px;
+}
+.pic3 h4{
+
+font-size: 20px;
+}
+.blog{
+    text-align: center;
+    background-color: #f9f9f9;
+    padding: 100px;
+}
+.blog h1{
+    font-size: 20px;
+    font-weight: 400;
+    font-family: Roboto, sans-serif;
+    text-transform: uppercase;
+    padding-bottom: 50px;
+}
+.blog2{
+
+width: 80%;
+
+margin-left: 10%;
+
+display: flex;
+
+justify-content: space-between;
+}
+.blog3{
+    
+width: 48%;
+    
+height: 400px;
+    
+padding: 110px 5px;
+}
+.blog3 img{
+
+width: 100%;
+
+height: 100%;
+}
+.blog3 h3{
+
+font-size: 30px;
+
+margin: 20px 0px;
+
+color: #fc8b75;
+}
+.blog3 h4{
+
+font-size: 20px;
+}
+
+footer{
+    margin-top: 150px;
+    background: #292c34;
+    padding: 45px 0;
+    }
+    .footer_content{
+    
+width: 80%;
+    
+margin: auto;
+    
+display: flex;
+    
+justify-content: space-between;
+    
+align-items: center;}
+
+    .terms{
+
+width: 20%;
+
+display: flex;
+
+
+justify-content: space-around;
+
+align-items: center;
+}
+.terms img{
+
+    
+    
+    }
+    .terms ul{
+    
+    list-style: none;
+    
+    display: flex;
+    }
+    .terms ul li{
+        
+
+    }
+    .terms ul li a{
+        color: #64676d;
+        text-decoration: none;
+        font-size: 18px;
+}
+.social_icon{
+
+width: 40%;
+}
+.social_icon ul{
+
+display: flex;
+
+justify-content: end;
+}.social_icon li{
+
+font-size: 20px;
+
+list-style: none;
+
+margin-left: 15%;
+}.social_icon a{
+
+color: #ffffff;
+}
